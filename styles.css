@@ -370,7 +370,6 @@ p {
 
 media (max-width: 768px) {
   .flower {
-    right: -200px; /* Centrar la flor horizontalmente */
     margin-top: 650px; /* Mover la flor debajo de la tarjeta */
     position: relative; /* Cambiar a posición relativa para ajustar el flujo */
     top: auto; /* Restablecer la posición vertical */
