@@ -367,3 +367,19 @@ p {
       transform: scale(0);
   }
 }
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .flower {
+    margin-left: 0; /* Centrar la flor horizontalmente */
+    margin-top: 20px; /* Mover la flor debajo de la tarjeta */
+    position: relative; /* Cambiar a posición relativa para ajustar el flujo */
+    top: auto; /* Restablecer la posición vertical */
+    left: auto; /* Restablecer la posición horizontal */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+  }
+
+  .birthdayCard {
+    margin-bottom: 100px; /* Espacio para la flor debajo de la tarjeta */
+  }
+}
