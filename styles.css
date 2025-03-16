@@ -368,11 +368,10 @@ p {
   }
 }
 
-/* Estilos para dispositivos móviles */
-@media (max-width: 768px) {
+media (max-width: 768px) {
   .flower {
-    margin-left: 20px; /* Centrar la flor horizontalmente */
-    margin-top: 150px; /* Mover la flor debajo de la tarjeta */
+    margin-left: -200px; /* Centrar la flor horizontalmente */
+    margin-top: 650px; /* Mover la flor debajo de la tarjeta */
     position: relative; /* Cambiar a posición relativa para ajustar el flujo */
     top: auto; /* Restablecer la posición vertical */
     left: auto; /* Restablecer la posición horizontal */
