@@ -368,16 +368,17 @@ p {
   }
 }
 
-media (max-width: 768px) {
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
   .flower {
-    margin-top: 650px; /* Mover la flor debajo de la tarjeta */
-    position: relative; /* Cambiar a posición relativa para ajustar el flujo */
-    top: auto; /* Restablecer la posición vertical */
-    left: auto; /* Restablecer la posición horizontal */
-    transform: translateX(-50%); /* Centrar horizontalmente */
+    margin-top: 650px !important; /* Mover la flor debajo de la tarjeta */
+    position: relative !important; /* Cambiar a posición relativa para ajustar el flujo */
+    top: auto !important; /* Restablecer la posición vertical */
+    left: auto !important; /* Restablecer la posición horizontal */
+    transform: translateX(-50%) !important; /* Centrar horizontalmente */
   }
 
   .birthdayCard {
-    margin-bottom: 100px; /* Espacio para la flor debajo de la tarjeta */
+    margin-bottom: 100px !important; /* Espacio para la flor debajo de la tarjeta */
   }
 }
